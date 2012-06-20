@@ -1,0 +1,13 @@
+Nimue uploads/runs Busybox, so you will need to compile a version of Busybox
+that supports the following:
+
+* mipsel architecture
+* GLibc / Linux kernel versions on your TV
+* nc
+* cp/mv
+* mount
+* mknod
+* telnetd
+* ash (standalone)
+
+My .config may be found in this directory if you need a baseline.
